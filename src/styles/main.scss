@@ -1,0 +1,60 @@
+@import "../../node_modules/draft-js/dist/Draft.css";
+
+html, body {
+  font-family: 'Open Sans';;
+  font-size: 10px;
+  box-sizing: border-box;
+
+  @media screen and (max-width: 1200px) {
+    font-size: 9px;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 8px;
+  }
+
+  @media screen and (max-width: 575px) {
+    font-size: 6px;
+
+  }
+
+  .fs-1 {
+    font-size: 5rem;
+
+    @media screen and (max-width: 575px) {
+      font-size: 3rem;
+    }
+  }
+
+  .fs-2 {
+    font-size: 3rem;
+  }
+
+  .fs-3 {
+    font-size: 3.5rem;
+  }
+
+  .fs-4 {
+    font-size: 2rem;
+  }
+
+  .fs-5 {
+    font-size: 1.8rem;
+  }
+
+  .fs-6 {
+    font-size: 1.5rem;
+  }
+
+  .text-block {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.main-box {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}

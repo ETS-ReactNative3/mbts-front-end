@@ -1,0 +1,17 @@
+.profile-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  .pr {
+    flex: 23% 0 0;
+
+
+    .sprite-box {
+      width: 80px;
+      height: 80px;
+      background-size: 500px;
+      background: url("/assets/pictures/pr.jpg") 100px 100px;
+    }
+  }
+}

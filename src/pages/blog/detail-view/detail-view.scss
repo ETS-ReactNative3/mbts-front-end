@@ -1,0 +1,68 @@
+.detail-view {
+  //background-color: rgba(0, 0, 0, 0.33);
+
+  .header {
+    min-height: 60vw;
+    position: relative;
+
+    background-image: url("/assets/pictures/def.jpg");
+    background-attachment: fixed;
+    background-position: center 52px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-origin: content-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 20px;
+
+    .text {
+      font-size: 5rem;
+      font-weight: 700;
+      color: #a5a5a5;
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      bottom: 30px;
+
+      @media screen and (max-width: 575px) {
+        font-size: 3rem;
+      }
+    }
+
+    //@media screen and (max-width: 575px) {
+    //  min-height: 80vw;
+    //  background-image: url("/assets/pictures/def_m.jpg");
+    //}
+
+  }
+
+  .main {
+    font-family: 'Crete Round';
+    padding: 5% 20%;
+    max-width: 1400px;
+
+    .btns-block {
+      display: flex;
+      padding: 10px;
+      justify-content: space-evenly;
+    }
+
+    .edit-mode {
+      .footer div {
+        flex: 100% 0 0;
+      }
+    }
+  }
+
+  .comment-box {
+    padding: 0 10%;
+  }
+}
+
+.view-mode__content {
+  font-size: 15px;
+  font-family: 'Crete Round';
+}
+

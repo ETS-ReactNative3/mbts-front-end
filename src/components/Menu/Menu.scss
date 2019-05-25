@@ -1,0 +1,160 @@
+.menu-wrapper {
+  opacity: 0.9;
+  z-index: 6;
+  font-family: 'Crete Round';
+  position: relative;
+
+  .logo.navbar-brand {
+    //background-image: url("/assets/pictures/Logo.png");
+    //background-position: center center;
+    //background-repeat: no-repeat;
+    //background-size: auto 100%;
+    padding-top: 0;
+    margin-top: -2px;
+    cursor: pointer;
+
+    .logo-div {
+      position: relative;
+      font-size: 26px;
+      padding-right: 74px;
+
+      color: #1c1c1c;
+      font-family: 'Cookie';
+      text-shadow: 1px 1px #a7b4b1;
+      transform: rotate(-20deg);
+
+      .system {
+        position: absolute;
+        top: 19px;
+        left: 42px;
+      }
+
+      .by {
+        position: absolute;
+        font-size: 14px;
+        top: 33px;
+        left: 66px;
+        text-shadow: 0.3px 0.3px #a7b4b1;
+      }
+    }
+
+    .logo-div:hover {
+      text-shadow: 1px 1px #0dddde;
+
+      .by {
+        text-shadow: 0.3px 0.3px #0dddde;
+      }
+    }
+
+  }
+
+  .nav-wrapper {
+    //display: flex;
+    //justify-content: center;
+  }
+
+  .navbar-default .navbar-nav>li>a {
+    font-size: 18px;
+  }
+
+  .navbar-collapse>.nav>li {
+    width: 100%!important;
+    white-space: nowrap;
+  }
+
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+
+    .active a {
+      color: white!important;
+      background: linear-gradient(#0afbff, #013d40);
+    }
+
+    .dropdown-menu .hash {
+      display: block;
+      text-align: left;
+      color: #929494!important;
+      background: none;
+      padding: 5px 15px;
+      transition: all .5s;
+    }
+
+    .dropdown-menu .hash:hover {
+      text-decoration: none;
+      color: #0afbff!important;
+    }
+
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      font-size: 2rem;
+      align-items: flex-start;
+    }
+
+    .hash {
+      font-size: 18px;
+    }
+
+    .nav>li>a {
+
+      padding: 10px 10px;
+
+    }
+
+    .sepor {
+      border-right: 1px solid #e5e4e4;
+
+      @media screen and (max-width: 768px) {
+        border-right: none;
+        border-bottom: 1px solid #e5e4e4;
+      }
+    }
+
+
+
+    .btn-group-xs>.btn, .btn-xs {
+      font-size: 18px;
+    }
+
+    @media screen and (max-width: 1000px) {
+      .hash, .btn-group-xs>.btn, .btn-xs {
+        font-size: 14px;
+      }
+    }
+
+    .dropdown-menu {
+      text-align: center;
+      background: #e3e0e0;
+
+      li a {
+        background: #e3e0e0;
+        color: #717274;
+      }
+    }
+
+  }
+
+  @media (min-width: 768px){
+    .container {
+      width: 95%;
+    }
+  }
+
+
+  .navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 0;
+    font-size: 18px;
+    margin-top: 2px;
+    margin-left: 21px;
+    line-height: 20px;
+  }
+
+  .my-blog-dek-btn {
+    margin-left: -20px;
+    font-size: 18px;
+  }
+
+}

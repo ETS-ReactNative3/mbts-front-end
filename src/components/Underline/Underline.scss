@@ -1,0 +1,44 @@
+.underline {
+
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  padding: 30px;
+  font-size: 3rem;
+  color: #779494;
+  font-family: 'Roboto';
+  text-align: center;
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .border {
+    width: 55px;;
+    border-bottom: 2px solid #60bbd5;
+    margin: 10px auto 0;
+  }
+}
+
+.underline-reversed {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  padding: 0 30px 20px;
+  font-size: 3rem;
+  color: #ffffff;
+  font-family: 'Roboto';
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .border-reversed {
+    width: 55px;;
+    border-bottom: 2px solid #ffffff;
+    margin: 10px auto 0;
+  }
+}
