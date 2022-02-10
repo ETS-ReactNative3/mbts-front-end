@@ -62,7 +62,7 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "css-loader": "^0.28.11",
-    "node-sass": "^4.7.2",
+    "node-sass": "^7.0.0",
     "postcss-loader": "^2.1.2",
     "sass-loader": "^6.0.7",
     "scss-loader": "0.0.1",
